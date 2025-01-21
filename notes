@@ -1,0 +1,5 @@
+1. to register vpa, we will use concept of bloom filter to check avalaibility of vpa
+2. to read from backend, we will first check redis, if data in redis, then return from here, else fetch data from backend, adn push to redis and return to user.
+3. to write in backend, we will use kafka, to push data to db.
+4. meta_db will be of 2 kind, read and write saperately and will be in replication mode.
+5. financial db will be of write mode only -> mongodb

@@ -1,0 +1,13 @@
+# Exclude binaries and compiled files
+*.exe
+*.out
+*.o
+*.log
+
+# Dependency directories
+**/vendor/
+**/node_modules/
+
+# Environment files
+.env
+
