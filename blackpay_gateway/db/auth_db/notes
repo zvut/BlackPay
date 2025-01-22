@@ -1,0 +1,8 @@
+docker-compose 
+docker exec -it mysql_container mysql
+docker-compose up -d
+docker-compose down                   
+
+mysql -h 127.0.0.1 -P 3306 -u myuser -p
+use mydatabase
+select * from auth_user;
